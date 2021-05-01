@@ -1,0 +1,115 @@
+body {
+   background-color: #5B4F4B;
+   color: #333;
+   margin: 0;
+   font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+ }
+
+ img {
+     max-width: 100%;
+     display: block;
+ }
+
+ .logo {
+   font-size: 200%;
+   padding: 50px 20px;
+   margin: 0 auto;
+   max-width: 980px;
+ }
+
+ .grid {
+   margin: 0 auto;
+   padding: 0 20px;
+   max-width: 980px;
+   display: grid;
+   grid-gap: 20px;
+ }
+
+ article {
+   grid-column: 1 / 5;
+   grid-row: 1;
+   width: 100%;
+ }
+
+ aside {
+   grid-column: 5;
+   grid-row: 1;
+   width: 100%;
+ }
+
+ nav {
+   background-color: #000;
+   padding: .5em;
+   position: sticky;
+   top: 10px;
+ }
+
+ nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+ }
+
+ nav a {
+   color: #CE3F3F;
+   text-decoration: none;
+   padding: .5em 1em;
+ }
+
+ .photos {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   grid-gap: 1px;
+ }
+
+ .feature {
+     width: 200px;
+ }
+
+ article img {
+   float: left;
+   margin-right: 1em;
+ }
+
+ p{
+  color: #CE3F3F;
+  font-family: 'Helvetica neue', Times, 'sans serif';
+  font-size: 20px;
+  width: 200px;
+}
+
+h1{
+  color: #CE3F3F;
+  font-family: 'Helvetica neue', Times, 'sans serif';
+  border: 10px solid red;
+  border-radius: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 245px;
+}
+
+h2{
+  color: #CE3F3F;
+  font-family: 'Helvetica neue', Times, 'sans serif';
+  border: 10px solid red;
+  border-radius: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 160px;
+}
+
+div{
+  color: #CE3F3F;
+  font-family: 'Helvetica neue', Times, 'sans serif';  border: 10px solid red;
+  border: 10px solid red;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 235px;
+}

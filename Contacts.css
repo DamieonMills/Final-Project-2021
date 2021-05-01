@@ -1,0 +1,19 @@
+body{
+  background-color: #5B4F4B;
+}
+
+h1{
+  color: #CE3F3F;
+  font-family: 'Helvetica neue', Times, 'sans serif';
+  font-size: 45px;
+}
+
+p{
+  color: #CE3F3F;
+  font-family: 'Helvetica neue', Times, 'sans serif';
+  font-size: 30px;
+  border: 10px solid red;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 500px;
+}
